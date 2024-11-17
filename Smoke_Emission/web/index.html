@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smoke Scanner v0.1a</title>
+    <link rel="stylesheet" href="./style/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="/eel.js"></script>
+    <script src="./assets/main.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        window.resizeTo(976, 578)
+      </script>
+    <!--1536*824-->
+    <div class="containerMain">
+        <div class="streamcanvas">
+            <img src="" id="canvasMain" style="width: 100%; height: 100%; margin: 0;">
+        </div>
+        <div class="sidepanel">
+            <div class="apptitle">
+                <span class="att">Smoke Scanner v0.1a</span>
+            </div>
+            <div class="mbg">
+                <div class="row" style="height: 50%;">
+                    <button class="sqbut" id="addmedia" onclick="getPathToFile();"><span><i class="fa fa-picture-o"></i> Scan Media</span></button>
+                    <button class="sqbut" id="addlivestream" onclick="eel.displayMessageBox('Under Construction', 'Feature coming soon! before next review hopefully!', 1)"><span><i class="fa fa-file-video-o"></i> Add Stream</span></button>
+                </div>
+                <div class="row" style="height: 25%;">
+                    <button class="rbut" id="configureapp" onclick="eel.displayMessageBox('Under Construction', 'Feature coming soon! before next review hopefully!', 1)"><span><i class="fa fa-wrench"></i> Configure</span></button>
+                </div>
+                <div class="row" style="height: 25%;">
+                    <button class="rbut" id="appinfo" onclick="eel.displayMessageBox('About Smoke Scanner', 'Smoke detection application developed by team CCP - Jaideep, Malavika & Guru!', 2)"><span><i class="fa fa-info-circle"></i> About</span></button>
+                </div>
+            </div>
+        </div>
+        <div class="bottompanel" id="terminal">
+            <span class="line plain">-------------------------------------------------------------------</span>
+            <span class="line bline sline">Smoke Scanner v0.1a by team CCP</span>            
+            <span class="line plain">-------------------------------------------------------------------</span>
+            <span class="line light" style="word-wrap: break-word;">Smoke Scanner is a good-willed academic project that seeks to control 
+                climate change by helping authorities identify and control emission norms violators, which is a huge & unchecked menace in many developing countries.
+                Go ahead and add in a video/image or a live stream file (in .m3u8 format) to start scanning for visible or excess smoke emissions. if unnatural emissions
+                are detected, its logged in this terminal and also a frame of the detected vehicle is stored on your disk.
+            </span>
+            <span class="line plain">-------------------------------------------------------------------</span>
+            <br>           
+        </div>
+    </div>    
+</body>
+</html>

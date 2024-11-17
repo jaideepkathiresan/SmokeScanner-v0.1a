@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.containerMain {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    left: 0;
+    background: linear-gradient(118deg, #E28E44 0%, #F71C1C 100%);
+}
+
+.streamcanvas {
+    background-color: aliceblue;
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    left: 2.5rem;
+    top: 2.5rem;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+#canvasMain {
+    display: none;
+}
+
+.sidepanel {
+    height: 60%;
+    width: 40%;
+    position: fixed;
+    right: 2rem;
+    top: 2.5rem;
+}
+
+.apptitle {
+    width: 100%;
+    height: 2.5rem;
+    cursor: default;
+    user-select: none;
+    background: rgba(0, 0, 0, 0.45);
+    padding: 0.6rem 0 0.6rem 0;
+    display: flex;
+}
+
+.att {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-self: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+    
+}
+
+.mbg {
+    height: 75%;
+    width: 100%;
+}
+
+.mbg span {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.mbg .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.sqbut {
+    width: 49%;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.rbut {
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.bottompanel {
+    width: 80%;
+    height: 25%;
+    background: black;
+    box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.25);
+    border: 5px white solid;
+    position: fixed;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.bottompanel:hover {
+    overflow-y: scroll;
+}
+
+.line {
+    padding: 0.2rem 0 0 0.5rem;
+}
+
+.line:first-of-type {
+    padding-top: 0.5rem;
+}
+
+.bline {
+    font-weight: 700;
+}
+
+.eline {
+    color: red;
+}
+
+.sline {
+    color: green;
+}
+
+.aline {
+    color: yellow;
+}
+
+.light {
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+.italic {
+    font-style: italic;
+}
+
+.mbg button {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.mbg button:hover {
+    color: white;
+}
+
+#addmedia:hover {
+    background-color: #07E307;
+}
+
+#addlivestream:hover {
+    background-color: #a60402;
+}
+#configureapp:hover {
+    background-color: #FFC300;
+}
+#appinfo:hover {
+    background-color: #37118a;
+}
